@@ -1,6 +1,6 @@
 {
   "name": "gulp-header",
-  "version": "2.0.9",
+  "version": "2.1.0",
   "description": "Gulp extension to add header to file(s) in the pipeline.",
   "main": "./index.js",
   "proxy": null,
@@ -39,6 +39,11 @@
       "name": "Douglas Duteil",
       "email": "douglasduteil@gmail.com",
       "url": "http://github.com/douglasduteil"
+    },
+    {
+      "name": "Joseph Crawford",
+      "email": "jbcrawford@gmail.com",
+      "url": "https://github.com/jbcrawford"
     }
   ],
   "license": "MIT",
@@ -57,9 +62,9 @@
   "dependencies": {
     "concat-with-sourcemaps": "^1.1.0",
     "jest": "^25.1.0",
-    "lodash.template": "^4.5.0",
+    "lodash": "^4.17.21",
     "map-stream": "0.0.7",
-    "through2": "^2.0.0"
+    "through2": "^4.0.2"
   },
   "devDependencies": {
     "gulp": "^4.0.0",
